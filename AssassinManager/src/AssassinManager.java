@@ -18,6 +18,9 @@ public class AssassinManager {
 	}
 	
 	public void printKillRing() {
+		for(String ring : killRings) {
+			System.out.println(ring);
+		}
 		
 	}
 	
