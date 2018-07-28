@@ -18,7 +18,9 @@ public class AssassinManager {
 	}
 	
 	public void printKillRing() {
-		
+		for(int i = 0; i < killRing.size(); i++) {
+			System.out.println(killRing[i]);
+		}
 	}
 	
 	
